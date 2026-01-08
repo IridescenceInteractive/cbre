@@ -35,7 +35,6 @@ using CBRE.Providers;
 using CBRE.RMesh;
 using ImGuiNET;
 using NativeFileDialogNET;
-using RMeshDecomp;
 using Path = CBRE.DataStructures.MapObjects.Path;
 
 namespace CBRE.Editor.Documents {

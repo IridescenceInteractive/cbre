@@ -10,16 +10,15 @@
     <Product>MonoGame.Framework</Product>
     <Version>3.7</Version>
     <Configurations>Debug;Release</Configurations>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <DefineConstants>OPENGL;XNADESIGNPROVIDED;TRACE;WINDOWS;DESKTOPGL;SUPPORTS_EFX</DefineConstants>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <DefineConstants>OPENGL;XNADESIGNPROVIDED;TRACE;WINDOWS;DESKTOPGL;SUPPORTS_EFX</DefineConstants>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

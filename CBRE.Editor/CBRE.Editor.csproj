@@ -26,7 +26,6 @@
     <ProjectReference Include="..\CBRE.RMesh\CBRE.RMesh.csproj" />
     <ProjectReference Include="..\CBRE.Settings\CBRE.Settings.csproj" />
     <ProjectReference Include="..\ImGui.NET\ImGui.NET.csproj" />
-    <ProjectReference Include="..\Tools\RMeshDecomp\RMeshDecomp.csproj" />
     <PackageReference Include="NativeFileDialogNET" Version="2.0.0" />
   </ItemGroup>
 
